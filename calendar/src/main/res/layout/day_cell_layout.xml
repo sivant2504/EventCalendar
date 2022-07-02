@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="0.25sp"
+    android:layout_weight="1"
+    android:minHeight="45sp"
+    app:cardCornerRadius="5sp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/dayLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="1sp"
+        android:background="@drawable/bg_button_rectangle">
+
+        <TextView
+            android:id="@+id/dayNumberLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/material_calendar_monday"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@color/current_month_day_text_color"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toTopOf="@id/tvGreenMsg"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvGreenMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Green"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="11sp"
+            app:layout_constraintBottom_toTopOf="@id/tvRedMsg"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvRedMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Red"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="11sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="3sp"
+    app:cardCornerRadius="7sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- eventDays header -->
+        <LinearLayout
+            android:id="@+id/abbreviationsBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:gravity="center_vertical"
+            android:minHeight="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/mondayLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/material_calendar_monday"
+                android:textColor="@color/day_label_text_color" />
+
+            <TextView
+                android:id="@+id/tuesdayLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/material_calendar_tuesday"
+                android:textColor="@color/day_label_text_color" />
+
+            <TextView
+                android:id="@+id/wednesdayLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/material_calendar_wednesday"
+                android:textColor="@color/day_label_text_color" />
+
+            <TextView
+                android:id="@+id/thursdayLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/material_calendar_thursday"
+                android:textColor="@color/day_label_text_color" />
+
+            <TextView
+                android:id="@+id/fridayLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/material_calendar_friday"
+                android:textColor="@color/day_label_text_color" />
+
+            <TextView
+                android:id="@+id/saturdayLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/material_calendar_saturday"
+                android:textColor="@color/day_label_text_color" />
+
+            <TextView
+                android:id="@+id/sundayLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/material_calendar_sunday"
+                android:textColor="@color/day_label_text_color" />
+        </LinearLayout>
+
+        <TableLayout
+            android:id="@+id/tlMonth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="0.5dp"
+            android:background="?attr/colorSecondary"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

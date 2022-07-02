@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="current_month_day_text_color">#071845</color>
+    <color name="other_month_day_text_color">#A7B9E6</color>
+    <color name="green_message_text_color">#5AF461</color>
+    <color name="red_message_text_color">#8AF82323</color>
+    <color name="day_label_text_color">#8A000000</color>
+</resources>

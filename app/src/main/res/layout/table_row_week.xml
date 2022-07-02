@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/trWeek"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<!--
+    <include
+        android:id="@+id/day1Label"
+        layout="@layout/day_cell_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal" />
+
+    <include
+        android:id="@+id/day2Label"
+        layout="@layout/day_cell_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal" />
+
+    <include
+        android:id="@+id/day3Label"
+        layout="@layout/day_cell_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal" />
+
+    <include
+        android:id="@+id/day4Label"
+        layout="@layout/day_cell_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal" />
+
+    <include
+        android:id="@+id/day5Label"
+        layout="@layout/day_cell_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal" />
+
+    <include
+        android:id="@+id/day6Label"
+        layout="@layout/day_cell_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal" />
+
+    <include
+        android:id="@+id/day7Label"
+        layout="@layout/day_cell_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal" />-->
+</TableRow>
